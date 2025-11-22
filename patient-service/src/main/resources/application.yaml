@@ -21,5 +21,9 @@ spring:
     init:
       mode: always
 
+logging:
+  level:
+    root: info
+
 server:
   port: 4000
