@@ -42,7 +42,7 @@ public class PatientController {
         return ResponseEntity.ok(patientService.updatePatient(id, patientRequestDTO));
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     @Operation(summary = "Delete Patient by ID")
     public ResponseEntity<Void> deletePatient(@PathVariable UUID id) {
         patientService.deletePatient(id);
