@@ -24,7 +24,7 @@
           <list>
             <DockerPortBindingImpl>
               <option name="containerPort" value="5432" />
-              <option name="hostPort" value="5000" />
+              <option name="hostPort" value="5432" />
             </DockerPortBindingImpl>
           </list>
         </option>
@@ -33,7 +33,7 @@
           <list>
             <DockerVolumeBindingImpl>
               <option name="containerPath" value="/var/lib/postgresql/" />
-              <option name="hostPath" value="E:\Bin\db_volumes\patient-service-db" />
+              <option name="hostPath" value="/Users/alphacrash/Desktop/Code/bin/patient-service-db" />
             </DockerVolumeBindingImpl>
           </list>
         </option>
